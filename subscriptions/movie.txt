@@ -19,6 +19,7 @@ https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/嘀嗒�
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/多多追剧.js
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/子子影视.js
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/yingshidao.js
+https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/懂片帝.js
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/movie/播剧网.js
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/暴风资源.js
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/movie/欧乐影院.js

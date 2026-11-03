@@ -4,7 +4,7 @@
   "counts": {
     "comic": 52,
     "photo": 5,
-    "movie": 249,
+    "movie": 250,
     "video": 199,
     "audiobook": 23,
     "novel": 0
@@ -2050,6 +2050,18 @@
       "aliases": [],
       "rating": "unknown",
       "iconDeclared": false
+    },
+    {
+      "id": "dongpiandi_video",
+      "name": "懂片帝",
+      "version": "1.0.0",
+      "kind": "movie",
+      "appSection": "video",
+      "path": "video/懂片帝.js",
+      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/懂片帝.js",
+      "aliases": [],
+      "rating": "unknown",
+      "iconDeclared": true
     },
     {
       "id": "pypack_114d8da99a465841",

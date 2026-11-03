@@ -21,13 +21,37 @@
 | --- | ---: | --- | --- |
 | 漫画 | 51 | [订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/comic.txt) | [订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/comic.txt) |
 | 美图 | 5 | [订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/photo.txt) | [订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/photo.txt) |
-| 影视 | 34 | [订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/movie.txt) | [订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/movie.txt) |
+| 影视 | 35 | [订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/movie.txt) | [订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/movie.txt) |
 | 视频与直播 | 127 | [订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/video.txt) | [订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/video.txt) |
 | 有声小说 | 7 | [订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/audiobook.txt) | [订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/audiobook.txt) |
 | 文字小说 | 0 | [订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/novel.txt) | [订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/novel.txt) |
 | PY 合集 | 304 | [订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/python.json) | [订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/python.json) |
 
-共 **528 个独立源**，同 ID 不重复收录。漫画、美图、文字小说、有声导入 APP 漫画板块；影视、视频导入视频板块。
+共 **529 个独立源**，同 ID 不重复收录。漫画、美图、文字小说、有声导入 APP 漫画板块；影视、视频导入视频板块。
+
+## 2026-11-03 懂片帝（video/懂片帝.js）
+
+`dongpiandi.ai`（懂片帝AI：AI 找片 + 片单 + 播放）是聚合前端，自己不存片：把各家聚合资源站
+（红牛 / 新浪 / 极速 / 豪华 / ikun / 魔都 / 西瓜…）与官方 CDN 的线路编到同一部作品上。
+形态是 React SPA + 同源 `/v1/*` JSON 接口，首页 HTML 只有 4 KB。
+
+- **每个请求都要 HMAC-SHA256 签名**：`x-ai-movie-timestamp`（毫秒）、`x-ai-movie-nonce`（16 字节 hex）、
+  `x-ai-movie-signature = HMAC(SIGN_KEY, "METHOD\npath?query\nts\nnonce")`。实测只校验这三个头，
+  客户端版本号之类的随便填也能过，所以站点换前端版本不影响本源；换 key 时把新
+  `main-*.js` 里的 `Jo="…"` 抄进源即可。源里优先用宿主原生 `tools.hmac`，失败退回纯 JS，
+  并按响应 `Date` 对设备时钟偏差做一次校正重试。
+- 接口：`/v1/feed/home`（首页板块）、`/v1/browse/catalog`（`q`/`kind`/`genre`/`area`/`language`/
+  `year`/`sort`/`hot_list_key`/`page`/`limit≤20`）、`/v1/runtime/bootstrap`（分类与筛选表）、
+  `/v1/catalog/{id}`（详情 + `episodes[].token`）、`/v1/playback/resolve/{token}`（线路表）、
+  `POST /v1/playback/resolve-line`（票券换址）。
+- 分类 id 直接用站点查询串（`kind=movie`、`sort=trending&window=day`、`hot_list_key=tv_korean`…），
+  首页板块的「更多」由 `section.browse.params` 转成同一套编码，点进去就是普通列表分页；
+  筛选组从 `catalog_ui` 实时取（分类/地区/语言/年份/排序），genre 不支持多选。
+- 播放默认走第三方直链（`resolve_mode:"direct"` 的 m3u8/mp4，免费不扣额度），官方
+  `resolve://` 票券线路只在直链一条都没有时兜底。**不逐条探活**：32 条线路里总有一两条
+  CDN 已挂、要等宿主 6 秒超时，串行探活会把 `content` 拖到 16 秒被判超时；改成按
+  「站点权重 + 资源站实测稳定性」排序后直接给地址，前 5 条进 `qualities` 供切换。
+- 实测：`content` 213–899 ms、直链 206 + `#EXTM3U`；真 QuickJS 沙箱里签名头与 Dart 侧 HMAC 逐字一致。
 
 ## 2026-11-03 爱丽丝书屋（comic/爱丽丝书屋.js）
 
