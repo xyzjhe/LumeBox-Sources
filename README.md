@@ -45,8 +45,18 @@
   `/v1/catalog/{id}`（详情 + `episodes[].token`）、`/v1/playback/resolve/{token}`（线路表）、
   `POST /v1/playback/resolve-line`（票券换址）。
 - 分类 id 直接用站点查询串（`kind=movie`、`sort=trending&window=day`、`hot_list_key=tv_korean`…），
-  首页板块的「更多」由 `section.browse.params` 转成同一套编码，点进去就是普通列表分页；
-  筛选组从 `catalog_ui` 实时取（分类/地区/语言/年份/排序），genre 不支持多选。
+  首页板块的「更多」由 `section.browse.params` 转成同一套编码，点进去就是普通列表分页。
+- 分类 / 筛选 / 排序（v1.3.0 补全，17 个分类全部出内容、15 个首条唯一）：
+  - kind 分类显式带 `sort=heat_desc`（bootstrap 的 `default_sort`）；实测「不带 sort」站点按最新出，
+    不显式给就和「最近更新」撞首屏。筛选里的「排序」能覆盖（实测《空枪》→ 选「最新」变《半山腰的索玛花》）。
+  - 筛选组：bootstrap 5 个 kind 走 `catalog_ui`；**documentary / sports 在 bootstrap 里没有，
+    但参数照样生效**，补本地表（genre 从片库反查）；`all` 与两个热播分类给通用组（实测「不带 kind」
+    时 area/year/genre 也生效）；7 个榜单不给组（实测榜单丢附加参数：`hot_list_key + area` 的 area
+    不生效、`+ sort` 反而把榜单顶掉）。
+  - **多选只有地区支持**：`area=中国大陆,中国香港` 混出两地；`genre=喜剧,爱情`、`language=国语,粤语`
+    都回 0 条，所以只对 area 做逗号拼接。
+  - 没有的维度（实测静默忽略）：`rating_gte`/`score_gte`/`duration_lte`/`is_finished`/`status`/
+    `free`/`playable_only`/`actor`/`channel`/`region`/`lang`；短剧「状态」「形式」站点自标 `enabled:false`。
 - 播放默认走第三方直链（`resolve_mode:"direct"` 的 m3u8/mp4，免费不扣额度），官方
   `resolve://` 票券线路只在直链一条都没有时兜底。**不逐条探活**：32 条线路里总有一两条
   CDN 已挂、要等宿主 6 秒超时，串行探活会把 `content` 拖到 16 秒被判超时；改成按
