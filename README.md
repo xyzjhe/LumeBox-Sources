@@ -62,6 +62,14 @@
   CDN 已挂、要等宿主 6 秒超时，串行探活会把 `content` 拖到 16 秒被判超时；改成按
   「站点权重 + 资源站实测稳定性」排序后直接给地址，前 5 条进 `qualities` 供切换。
 - 实测：`content` 213–899 ms、直链 206 + `#EXTM3U`；真 QuickJS 沙箱里签名头与 Dart 侧 HMAC 逐字一致。
+- **v1.4.0 午夜剧场接成第 18 个分类**（`midnight`）：走 `discovery → play → timeline`，
+  `chapters()` 把 `timeline.segments` 展开成章节、`content()` 按段取 `media_sources[].url`，
+  `play` 缓存 10 分钟避免重复扣词元。**请求侧实测打通**：`play_request_id` 必须标准 UUID v4
+  （纯随机 hex 回 `400 Invalid UUID`；改成 8-4-4-12、第三段首字符 `4`、第四段 `8/9/a/b` 后，
+  `random/play`、`top/play`、`playlists/{id}/play` 三个都从 400 变 403 资格拦截，说明 body 被接受）。
+  **响应结构还没有真实样本**（账号练气1层 `access`/`discovery`/`play` 全 403
+  `midnight_theater_not_eligible`），结构取自 `/assets/MidnightTheaterRoute-*.js` 的消费代码，
+  解析防御式；没资格时分类会明确回报原因，不静默返回空。
 - **v1.1.0 账号（可选）+ 线路偏好**：用真实账号实测过 —— **不填账号也能用全部片库**，登录前后
   线路表逐条一致（34 条：25 直链 + 9 官方票券），连「新4K-限时等级专属」「4K海外-官方C」
   匿名换也返回 201 + 真地址；登录只多出站内那套（`/v1/users/me/quota` 每日词元、收藏、历史、
