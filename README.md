@@ -61,6 +61,16 @@
   401 重登一次，密码错只写 30 分钟 TTL 的 `login_fail.json` 不阻塞播放。另加 `lineMode`
   （直链优先 / 官方优先）与设置页动作「检查账号与额度」「退出站点登录」——前者实测输出
   `账号：teng233（林间小太阳2017）／等级：练气1层（member）／今日词元：已用 0 / 上限 100 万`。
+- **v1.2.0：午夜剧场没接**（有实测依据）。它是「AI 现生成今晚片单」而不是片库：
+  `POST /v1/midnight-theater/playlists`（前端超时 45 秒）→ 轮询 `/generations/{id}` →
+  `POST .../playlists/{id}/play` → 再进 `/v1/playback`，每次按次扣大量词元。而且**这个账号没资格**：
+  走完站点自己的成年确认（`PUT /v1/users/me/preferences {"adult_confirmed":true}` → 200 带
+  `adult_confirmed_at`）后，`GET /v1/midnight-theater/access` 仍回
+  `403 {"code":"midnight_theater_not_eligible","message":"当前账号暂不符合开放条件"}`，
+  `discovery` 同 403、`eligibility` 是 `{eligible:false}`。没资格就拿不到可验证的响应结构，
+  按写源规则不猜。所以只加两个能验证的动作：「确认已满 18 岁（站点账号）」「查午夜剧场资格」。
+  同时修了线路选择：头几条偶尔是 403/404 的资源站（`dytt-tvs` 403、`bfeng11` 404），
+  现在单条探活 1 秒、总预算 2.2 秒、命中即停，全不通转票券，`content` 仍在 2.5 秒内。
 
 ## 2026-11-03 爱丽丝书屋（comic/爱丽丝书屋.js）
 

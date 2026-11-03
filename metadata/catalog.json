@@ -2054,7 +2054,7 @@
     {
       "id": "dongpiandi_video",
       "name": "懂片帝",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "kind": "movie",
       "appSection": "video",
       "path": "video/懂片帝.js",
