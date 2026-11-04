@@ -50,6 +50,7 @@ https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/腐宅Bo
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/色友漫画.js
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/色漫天堂.js
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/蚂蚁搬运.js
+https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/西瓜书屋.js
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/鸟鸟韩漫.js
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/龙禁漫.js
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/photo/91吃瓜图集.js

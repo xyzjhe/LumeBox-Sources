@@ -869,6 +869,14 @@
   "pypack_40321f7e9e507396": {
    "rating": "18+",
    "evidence": "User collection adult folder/name or mixed adult collection; see metadata/python-collection.json"
+  },
+  "91dasj_video": {
+   "rating": "18+",
+   "evidence": "91大事件（campus.ravwriau.cc，官方主域 91dasj.com）：成人吃瓜爆料站（Typecho + Mirages + DPlayer），全站色情短视频与图文爆料，归视频板块；封面为 AES-CBC 密文，由 App 原生解密。"
+  },
+  "xiguashuwu_comic": {
+   "rating": "18+",
+   "evidence": "西瓜书屋（www.xiguashuwu2.com，原 simishuwu）：成人网络小说站，全站色情小说（高辣/情欲/耽美等分类），VIP 角标书正文同样全量下发；交付形态为文字小说（mediaType=novel），归漫画板块。"
   }
  },
  "evidence": {

@@ -2,10 +2,10 @@
   "format": "lume.source-catalog",
   "version": 1,
   "counts": {
-    "comic": 52,
+    "comic": 53,
     "photo": 5,
     "movie": 243,
-    "video": 194,
+    "video": 195,
     "audiobook": 22,
     "novel": 0
   },
@@ -607,6 +607,18 @@
       "appSection": "comic",
       "path": "comic/蚂蚁搬运.js",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/蚂蚁搬运.js",
+      "aliases": [],
+      "rating": "18+",
+      "iconDeclared": true
+    },
+    {
+      "id": "xiguashuwu_comic",
+      "name": "西瓜书屋",
+      "version": "1.0.0",
+      "kind": "comic",
+      "appSection": "comic",
+      "path": "comic/西瓜书屋.js",
+      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/西瓜书屋.js",
       "aliases": [],
       "rating": "18+",
       "iconDeclared": true
@@ -3811,6 +3823,18 @@
       "appSection": "video",
       "path": "video/91吃瓜视频.js",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/91吃瓜视频.js",
+      "aliases": [],
+      "rating": "18+",
+      "iconDeclared": true
+    },
+    {
+      "id": "91dasj_video",
+      "name": "91大事件",
+      "version": "1.0.0",
+      "kind": "video",
+      "appSection": "video",
+      "path": "video/91大事件.js",
+      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/91大事件.js",
       "aliases": [],
       "rating": "18+",
       "iconDeclared": true
