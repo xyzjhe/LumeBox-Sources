@@ -5,7 +5,7 @@
     "comic": 54,
     "photo": 5,
     "movie": 34,
-    "video": 195,
+    "video": 196,
     "audiobook": 22,
     "novel": 0
   },
@@ -3202,6 +3202,18 @@
       "aliases": [],
       "rating": "18+",
       "iconDeclared": false
+    },
+    {
+      "id": "mycall_video",
+      "name": "草榴小说视频",
+      "version": "1.0.0",
+      "kind": "video",
+      "appSection": "video",
+      "path": "video/草榴小说视频.js",
+      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/草榴小说视频.js",
+      "aliases": [],
+      "rating": "18+",
+      "iconDeclared": true
     },
     {
       "id": "pypack_8d4d40be57ae814e",
