@@ -2,10 +2,10 @@
   "format": "lume.source-catalog",
   "version": 1,
   "counts": {
-    "comic": 55,
+    "comic": 56,
     "photo": 5,
     "movie": 34,
-    "video": 198,
+    "video": 199,
     "audiobook": 22,
     "novel": 0
   },
@@ -526,6 +526,18 @@
       "aliases": [],
       "rating": "18+",
       "iconDeclared": false
+    },
+    {
+      "id": "jmcomic_novel",
+      "name": "禁漫天堂 · JM文庫",
+      "version": "1.0.0",
+      "kind": "comic",
+      "appSection": "comic",
+      "path": "comic/禁漫天堂JM文庫.js",
+      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/禁漫天堂JM文庫.js",
+      "aliases": [],
+      "rating": "18+",
+      "iconDeclared": true
     },
     {
       "id": "jmd91_comic",
@@ -3167,6 +3179,18 @@
       "aliases": [],
       "rating": "18+",
       "iconDeclared": false
+    },
+    {
+      "id": "jmcomic_video",
+      "name": "禁漫天堂 · H動漫",
+      "version": "1.0.0",
+      "kind": "video",
+      "appSection": "video",
+      "path": "video/禁漫天堂H動漫.js",
+      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/禁漫天堂H動漫.js",
+      "aliases": [],
+      "rating": "18+",
+      "iconDeclared": true
     },
     {
       "id": "pornbest_video",

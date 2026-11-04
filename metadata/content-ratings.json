@@ -897,6 +897,14 @@
   "lcm_video": {
    "rating": "18+",
    "evidence": "乐成漫画（lcmhx.cc）：成人漫画 + AI 成人短剧站；本源只做已验证的 AI 成人短剧频道（/mctype/5/），HLS 经站点 media.php 代理播放。"
+  },
+  "jmcomic_video": {
+   "rating": "18+",
+   "evidence": "禁漫天堂（18comic.ink 直连，18comic.vip/jmcomic.me 走 Cloudflare 挑战）：H動漫 频道，成人动画；播放页内联签名 m3u8。"
+  },
+  "jmcomic_novel": {
+   "rating": "18+",
+   "evidence": "禁漫天堂 JM文庫 → 禁漫小說：成人小说，正文在 #ncc1/#ncc2 两个 .novel-content 里；文字小说形态，归漫画板块。"
   }
  },
  "evidence": {
