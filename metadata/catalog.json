@@ -5,7 +5,7 @@
     "comic": 60,
     "photo": 5,
     "movie": 34,
-    "video": 189,
+    "video": 188,
     "audiobook": 22,
     "novel": 0
   },
@@ -1635,18 +1635,6 @@
       "aliases": [],
       "rating": "18+",
       "iconDeclared": true
-    },
-    {
-      "id": "pypack_8535d5c4a40c0174",
-      "name": "Hanime1（免翻）",
-      "version": "1.0.0",
-      "kind": "video",
-      "appSection": "video",
-      "path": "video/PY-Hanime1（免翻）-a40c0174.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-Hanime1（免翻）-a40c0174.py",
-      "aliases": [],
-      "rating": "18+",
-      "iconDeclared": false
     },
     {
       "id": "hentai2w",
