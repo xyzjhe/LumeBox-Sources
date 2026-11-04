@@ -6,7 +6,7 @@
     "photo": 5,
     "movie": 34,
     "video": 187,
-    "audiobook": 18,
+    "audiobook": 17,
     "novel": 0
   },
   "verification": "Metadata inventory only; not a live cover or playback availability report.",
@@ -3620,18 +3620,6 @@
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/audiobook/PY-[书]易听书网-93f015bc.py",
       "aliases": [],
       "rating": "unknown",
-      "iconDeclared": false
-    },
-    {
-      "id": "pypack_352c21db33be3427",
-      "name": "星梦Asmr",
-      "version": "1.0.0",
-      "kind": "audiobook",
-      "appSection": "comic",
-      "path": "audiobook/PY-[瑟]星梦Asmr-33be3427.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/audiobook/PY-[瑟]星梦Asmr-33be3427.py",
-      "aliases": [],
-      "rating": "18+",
       "iconDeclared": false
     },
     {
