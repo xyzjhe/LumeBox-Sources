@@ -5,7 +5,7 @@
     "comic": 60,
     "photo": 5,
     "movie": 34,
-    "video": 196,
+    "video": 195,
     "audiobook": 22,
     "novel": 0
   },
@@ -2475,18 +2475,6 @@
       "aliases": [],
       "rating": "18+",
       "iconDeclared": true
-    },
-    {
-      "id": "pypack_035ad44c7cfa4911",
-      "name": "午夜影视",
-      "version": "1.0.0",
-      "kind": "video",
-      "appSection": "video",
-      "path": "video/PY-午夜影视-7cfa4911.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-午夜影视-7cfa4911.py",
-      "aliases": [],
-      "rating": "18+",
-      "iconDeclared": false
     },
     {
       "id": "pypack_a8990556ad2e6277",
