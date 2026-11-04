@@ -5,7 +5,7 @@
     "comic": 60,
     "photo": 5,
     "movie": 34,
-    "video": 197,
+    "video": 196,
     "audiobook": 22,
     "novel": 0
   },
@@ -2851,18 +2851,6 @@
       "appSection": "video",
       "path": "video/PY-暗夜蜜桃-1efed9a8.py",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-暗夜蜜桃-1efed9a8.py",
-      "aliases": [],
-      "rating": "18+",
-      "iconDeclared": false
-    },
-    {
-      "id": "pypack_ee97103063bb832a",
-      "name": "暗黑蜜桃🔞",
-      "version": "1.0.0",
-      "kind": "video",
-      "appSection": "video",
-      "path": "video/PY-暗黑蜜桃🔞-63bb832a.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-暗黑蜜桃🔞-63bb832a.py",
       "aliases": [],
       "rating": "18+",
       "iconDeclared": false
