@@ -5,7 +5,7 @@
     "comic": 60,
     "photo": 5,
     "movie": 34,
-    "video": 192,
+    "video": 191,
     "audiobook": 22,
     "novel": 0
   },
@@ -1659,18 +1659,6 @@
       "aliases": [],
       "rating": "18+",
       "iconDeclared": true
-    },
-    {
-      "id": "pypack_169f40b6923802fe",
-      "name": "hanime",
-      "version": "1.0.0",
-      "kind": "video",
-      "appSection": "video",
-      "path": "video/PY-hanime-923802fe.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-hanime-923802fe.py",
-      "aliases": [],
-      "rating": "18+",
-      "iconDeclared": false
     },
     {
       "id": "pypack_8535d5c4a40c0174",
