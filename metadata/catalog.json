@@ -2,7 +2,7 @@
   "format": "lume.source-catalog",
   "version": 1,
   "counts": {
-    "comic": 57,
+    "comic": 58,
     "photo": 5,
     "movie": 34,
     "video": 199,
@@ -430,6 +430,18 @@
       "aliases": [],
       "rating": "unknown",
       "iconDeclared": false
+    },
+    {
+      "id": "ciyuanji_novel",
+      "name": "次元姬",
+      "version": "1.0.0",
+      "kind": "comic",
+      "appSection": "comic",
+      "path": "comic/次元姬.js",
+      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/次元姬.js",
+      "aliases": [],
+      "rating": "18+",
+      "iconDeclared": true
     },
     {
       "id": "mkzhan_comic",
