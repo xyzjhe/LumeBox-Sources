@@ -29,13 +29,17 @@ def matches(url, expected, opener=urllib.request.urlopen):
 def verify(repository, before, after, rounds=8):
     aliases = json.loads((ROOT / 'metadata/legacy-paths.json').read_text(encoding='utf-8'))
     paths = published_paths(changed_paths(before, after), aliases)
+    tree = subprocess.check_output(['git', 'ls-tree', '-r', '-z', '--name-only', after], cwd=ROOT)
+    existing_paths = set(tree.decode('utf-8').split('\0'))
     pending = []
     for path in paths:
         # Only physical changed files: legacy aliases are not hosted files.
         if path in aliases:
             continue
-        blob = subprocess.run(['git', 'show', f'{after}:{path}'], cwd=ROOT, capture_output=True)
-        expected = blob.stdout if blob.returncode == 0 else None
+        if path in existing_paths:
+            expected = subprocess.check_output(['git', 'show', f'{after}:{path}'], cwd=ROOT)
+        else:
+            expected = None
         escaped = urllib.parse.quote(path, safe='/')
         pending.extend((url, expected) for url in (
             f'https://raw.githubusercontent.com/{repository}/main/{escaped}',
