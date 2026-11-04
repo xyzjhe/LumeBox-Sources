@@ -5,7 +5,7 @@
     "comic": 60,
     "photo": 5,
     "movie": 34,
-    "video": 199,
+    "video": 198,
     "audiobook": 22,
     "novel": 0
   },
@@ -3256,18 +3256,6 @@
       "aliases": [],
       "rating": "18+",
       "iconDeclared": true
-    },
-    {
-      "id": "pypack_7a615a369fb3f055",
-      "name": "红裹视频",
-      "version": "1.0.0",
-      "kind": "video",
-      "appSection": "video",
-      "path": "video/PY-红裹视频-9fb3f055.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-红裹视频-9fb3f055.py",
-      "aliases": [],
-      "rating": "18+",
-      "iconDeclared": false
     },
     {
       "id": "gamebus_video",
