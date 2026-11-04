@@ -2,10 +2,10 @@
   "format": "lume.source-catalog",
   "version": 1,
   "counts": {
-    "comic": 54,
+    "comic": 55,
     "photo": 5,
     "movie": 34,
-    "video": 196,
+    "video": 197,
     "audiobook": 22,
     "novel": 0
   },
@@ -394,6 +394,18 @@
       "aliases": [],
       "rating": "unknown",
       "iconDeclared": false
+    },
+    {
+      "id": "yueliang_comic",
+      "name": "月亮小说",
+      "version": "1.0.0",
+      "kind": "comic",
+      "appSection": "comic",
+      "path": "comic/月亮小说.js",
+      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/月亮小说.js",
+      "aliases": [],
+      "rating": "18+",
+      "iconDeclared": true
     },
     {
       "id": "nnmh_comic",
@@ -3211,6 +3223,18 @@
       "appSection": "video",
       "path": "video/草榴小说视频.js",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/草榴小说视频.js",
+      "aliases": [],
+      "rating": "18+",
+      "iconDeclared": true
+    },
+    {
+      "id": "liz_video",
+      "name": "荔枝短剧",
+      "version": "1.0.0",
+      "kind": "video",
+      "appSection": "video",
+      "path": "video/荔枝短剧.js",
+      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/荔枝短剧.js",
       "aliases": [],
       "rating": "18+",
       "iconDeclared": true

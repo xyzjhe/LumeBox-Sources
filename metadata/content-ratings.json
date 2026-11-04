@@ -885,6 +885,14 @@
   "mycall_video": {
    "rating": "18+",
    "evidence": "草榴小说视频（mycall.biz）：成人综合站（小说/视频/图集三形态），全部色情内容；视频走 /api/v1/video/thread/{id}/play 的 HLS，小说 /thread/{id}?chapter=N 纯文本，图集 data-gallery-preview。"
+  },
+  "yueliang_comic": {
+   "rating": "18+",
+   "evidence": "月亮小说（yueliangxiaoshuo.com）：带 R-18 分区的中文小说站（榜单可按 r18=0/1/2 过滤），大量色情小说；文字小说形态，归漫画板块。"
+  },
+  "liz_video": {
+   "rating": "18+",
+   "evidence": "荔枝短剧（liz01.com）：AI 成人短剧站，全部为色情短剧；单集页内容为签名 HLS，封面 AES-128-CBC 加密。"
   }
  },
  "evidence": {

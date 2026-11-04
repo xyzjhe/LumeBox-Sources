@@ -31,6 +31,7 @@ https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/comic/巴卡漫画.j
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/comic/开心看漫画.js
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/comic/愛看漫畫.js
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/comic/我的漫画.js
+https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/comic/月亮小说.js
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/comic/楠楠漫画.js
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/comic/漫客栈.js
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/comic/漫小肆.js
