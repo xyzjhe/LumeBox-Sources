@@ -15,6 +15,8 @@
 
 用户提供的 PY 合集已去重入库，并作为独立清单接入上方总订阅。也可仅导入 [PY 原站订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/python.json) 或 [PY 国内 CDN 订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/python.json)。当前纳入的 PY 源通过离线宿主加载；未逐站保证播放。13 份加载失败脚本保存在 archive/python，不进入订阅；本地管理工具与示例排除。详见 [合集记录](docs/PY合集入库.md)。
 
+综合源（多种内容）可单独订阅：[GitHub 原站](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/mixed.txt) · [国内 CDN](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/mixed.txt)。综合源同时保留在原有视频订阅，成人分级不变。
+
 ## 按需分类
 
 | 分类 | 独立源数 | 原站 | 国内 CDN |

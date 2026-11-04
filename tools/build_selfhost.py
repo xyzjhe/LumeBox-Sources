@@ -53,7 +53,7 @@ def rewrite(text, base):
 
 def manifest_sources():
     """要产出的清单：分类 txt + 合并 txt。命名与订阅端一致。"""
-    names = ['comic', 'photo', 'movie', 'video', 'audiobook', 'novel', 'python-comic', 'python-video']
+    names = ['comic', 'photo', 'movie', 'video', 'audiobook', 'novel', 'python-comic', 'python-video', 'mixed']
     return names + ['comics', 'videos']
 
 
