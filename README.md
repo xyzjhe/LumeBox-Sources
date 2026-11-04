@@ -13,7 +13,7 @@
 
 ## PY 合集
 
-用户提供的 PY 合集已去重入库，并作为独立清单接入上方总订阅。也可仅导入 [PY 原站订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/python.json) 或 [PY 国内 CDN 订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/python.json)。304 份通过离线宿主加载；未逐站保证播放。13 份加载失败脚本保存在 archive/python，不进入订阅；本地管理工具与示例排除。详见 [合集记录](docs/PY合集入库.md)。
+用户提供的 PY 合集已去重入库，并作为独立清单接入上方总订阅。也可仅导入 [PY 原站订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/python.json) 或 [PY 国内 CDN 订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/python.json)。当前纳入的 PY 源通过离线宿主加载；未逐站保证播放。13 份加载失败脚本保存在 archive/python，不进入订阅；本地管理工具与示例排除。详见 [合集记录](docs/PY合集入库.md)。
 
 ## 按需分类
 
@@ -25,9 +25,9 @@
 | 视频与直播 | 127 | [订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/video.txt) | [订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/video.txt) |
 | 有声小说 | 7 | [订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/audiobook.txt) | [订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/audiobook.txt) |
 | 文字小说 | 0 | [订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/novel.txt) | [订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/novel.txt) |
-| PY 合集 | 304 | [订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/python.json) | [订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/python.json) |
+| PY 合集 | 294 | [订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/python.json) | [订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/python.json) |
 
-共 **529 个独立源**，同 ID 不重复收录。漫画、美图、文字小说、有声导入 APP 漫画板块；影视、视频导入视频板块。
+共 **519 个独立源**，同 ID 不重复收录。漫画、美图、文字小说、有声导入 APP 漫画板块；影视、视频导入视频板块。
 
 ## 2026-11-03 懂片帝（video/懂片帝.js）
 

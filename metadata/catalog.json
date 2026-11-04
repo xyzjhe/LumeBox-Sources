@@ -4,9 +4,9 @@
   "counts": {
     "comic": 52,
     "photo": 5,
-    "movie": 250,
-    "video": 199,
-    "audiobook": 23,
+    "movie": 245,
+    "video": 195,
+    "audiobook": 22,
     "novel": 0
   },
   "verification": "Metadata inventory only; not a live cover or playback availability report.",
@@ -2388,18 +2388,6 @@
       "iconDeclared": true
     },
     {
-      "id": "pypack_b29b18c16ac08cc0",
-      "name": "毒口条影视",
-      "version": "1.0.0",
-      "kind": "movie",
-      "appSection": "video",
-      "path": "movie/PY-[影]毒口条影视-6ac08cc0.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/movie/PY-[影]毒口条影视-6ac08cc0.py",
-      "aliases": [],
-      "rating": "unknown",
-      "iconDeclared": false
-    },
-    {
       "id": "pypack_db9b2fd18d92e42f",
       "name": "毒舌影视",
       "version": "1.0.0",
@@ -2482,18 +2470,6 @@
       "aliases": [],
       "rating": "unknown",
       "iconDeclared": true
-    },
-    {
-      "id": "pypack_a9eb03a0e97e2170",
-      "name": "浮生影院",
-      "version": "1.0.0",
-      "kind": "movie",
-      "appSection": "video",
-      "path": "movie/PY-浮生影院-e97e2170.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/movie/PY-浮生影院-e97e2170.py",
-      "aliases": [],
-      "rating": "unknown",
-      "iconDeclared": false
     },
     {
       "id": "pypack_be60e97204ef9323",
@@ -2964,18 +2940,6 @@
       "iconDeclared": false
     },
     {
-      "id": "pypack_8360a725adb67c3a",
-      "name": "米饭",
-      "version": "1.0.0",
-      "kind": "movie",
-      "appSection": "video",
-      "path": "movie/PY-[影]米饭-adb67c3a.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/movie/PY-[影]米饭-adb67c3a.py",
-      "aliases": [],
-      "rating": "unknown",
-      "iconDeclared": false
-    },
-    {
       "id": "pypack_9192fd18fc6d2a1f",
       "name": "糯米短剧(2)",
       "version": "1.0.0",
@@ -3384,18 +3348,6 @@
       "iconDeclared": false
     },
     {
-      "id": "pypack_7342ef5af4f4f5f2",
-      "name": "金牌APP",
-      "version": "1.0.0",
-      "kind": "movie",
-      "appSection": "video",
-      "path": "movie/PY-金牌APP-f4f4f5f2.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/movie/PY-金牌APP-f4f4f5f2.py",
-      "aliases": [],
-      "rating": "unknown",
-      "iconDeclared": false
-    },
-    {
       "id": "pypack_e6634c1602e45126",
       "name": "金牌APP",
       "version": "1.0.0",
@@ -3571,18 +3523,6 @@
       "appSection": "video",
       "path": "movie/PY-[影]骚火影视-282bd2ea.py",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/movie/PY-[影]骚火影视-282bd2ea.py",
-      "aliases": [],
-      "rating": "unknown",
-      "iconDeclared": false
-    },
-    {
-      "id": "pypack_1b229dfa35eb7708",
-      "name": "骚火电影",
-      "version": "1.0.0",
-      "kind": "movie",
-      "appSection": "video",
-      "path": "movie/PY-[影]骚火电影-35eb7708.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/movie/PY-[影]骚火电影-35eb7708.py",
       "aliases": [],
       "rating": "unknown",
       "iconDeclared": false
@@ -3871,18 +3811,6 @@
       "appSection": "video",
       "path": "video/91Porn视频.js",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/91Porn视频.js",
-      "aliases": [],
-      "rating": "18+",
-      "iconDeclared": false
-    },
-    {
-      "id": "pypack_974c88bd7ff4e50e",
-      "name": "91porna",
-      "version": "1.0.0",
-      "kind": "video",
-      "appSection": "video",
-      "path": "video/PY-91porna-7ff4e50e.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-91porna-7ff4e50e.py",
       "aliases": [],
       "rating": "18+",
       "iconDeclared": false
@@ -5232,18 +5160,6 @@
       "iconDeclared": false
     },
     {
-      "id": "pypack_0fa95981ae4f3015",
-      "name": "快感研究所",
-      "version": "1.0.0",
-      "kind": "video",
-      "appSection": "video",
-      "path": "video/PY-快感研究所-ae4f3015.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-快感研究所-ae4f3015.py",
-      "aliases": [],
-      "rating": "18+",
-      "iconDeclared": false
-    },
-    {
       "id": "yue5xi5_video",
       "name": "快猫 18+",
       "version": "1.0.0",
@@ -5772,18 +5688,6 @@
       "iconDeclared": false
     },
     {
-      "id": "pypack_1545f23820617dc8",
-      "name": "美人姬",
-      "version": "1.0.0",
-      "kind": "video",
-      "appSection": "video",
-      "path": "video/PY-美人姬-20617dc8.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-美人姬-20617dc8.py",
-      "aliases": [],
-      "rating": "18+",
-      "iconDeclared": false
-    },
-    {
       "id": "laosiji_video",
       "name": "老司机在线",
       "version": "1.0.0",
@@ -5815,18 +5719,6 @@
       "appSection": "video",
       "path": "video/PY-萝莉岛-57ae814e.py",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-萝莉岛-57ae814e.py",
-      "aliases": [],
-      "rating": "18+",
-      "iconDeclared": false
-    },
-    {
-      "id": "pypack_8d8b8d926b7d858a",
-      "name": "蘑菇视频",
-      "version": "1.0.0",
-      "kind": "video",
-      "appSection": "video",
-      "path": "video/PY-蘑菇视频-6b7d858a.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-蘑菇视频-6b7d858a.py",
       "aliases": [],
       "rating": "18+",
       "iconDeclared": false
@@ -6139,18 +6031,6 @@
       "appSection": "comic",
       "path": "audiobook/PY-[音]DJ哟哟-a1b88dcc.py",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/audiobook/PY-[音]DJ哟哟-a1b88dcc.py",
-      "aliases": [],
-      "rating": "unknown",
-      "iconDeclared": false
-    },
-    {
-      "id": "pypack_05ee36942eaae8d8",
-      "name": "千千音乐",
-      "version": "1.0.0",
-      "kind": "audiobook",
-      "appSection": "comic",
-      "path": "audiobook/PY-[音]千千音乐-2eaae8d8.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/audiobook/PY-[音]千千音乐-2eaae8d8.py",
       "aliases": [],
       "rating": "unknown",
       "iconDeclared": false

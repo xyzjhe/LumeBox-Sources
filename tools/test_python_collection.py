@@ -14,7 +14,7 @@ class PythonCollectionTests(unittest.TestCase):
         outputs = build_catalog.build()
         rows = json.loads(outputs['metadata/catalog.json'])['sources']
         expected = {r['url']: r for r in rows if r['id'].startswith('pypack_')}
-        self.assertEqual(len(expected), 304)
+        self.assertEqual(len(expected), 294)
         for route in ('subscriptions/', 'subscriptions/cdn/'):
             total = json.loads(outputs[route + 'all.json'])
             found = collections.Counter()
@@ -38,7 +38,21 @@ class PythonCollectionTests(unittest.TestCase):
 
     def test_inventory_preserves_body_and_quarantines_failures(self):
         index = json.loads((build_catalog.ROOT / 'metadata/python-collection.json').read_text('utf-8'))
-        self.assertEqual(index['counts'], {'published': 304, 'pending-load': 13, 'excluded-demo': 1, 'excluded-tool': 3})
+        self.assertEqual(index['counts'], {'published': 294, 'pending-load': 13, 'excluded-demo': 1, 'excluded-tool': 3, 'removed-live': 7, 'removed-duplicate': 3})
+        removed = [row for row in index['sources'] if row['status'] == 'removed-live']
+        self.assertEqual(len(removed), 7)
+        published_ids = {entry['id'] for entry in json.loads(build_catalog.build()['metadata/catalog.json'])['sources']}
+        for row in removed:
+            self.assertIsNone(row['path'])
+            self.assertFalse((build_catalog.ROOT / row['formerPath']).exists())
+            self.assertNotIn(row['id'], published_ids)
+        duplicates = [row for row in index['sources'] if row['status'] == 'removed-duplicate']
+        self.assertEqual(len(duplicates), 3)
+        for row in duplicates:
+            self.assertIsNone(row['path'])
+            self.assertFalse((build_catalog.ROOT / row['formerPath']).exists())
+            self.assertNotIn(row['id'], published_ids)
+            self.assertIn(row['duplicateOf'], published_ids)
         for row in index['sources']:
             if not row['path']:
                 continue
