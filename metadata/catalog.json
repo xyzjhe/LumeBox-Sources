@@ -578,7 +578,7 @@
     {
       "id": "diyibanzhu_novel",
       "name": "第一版主",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "kind": "comic",
       "appSection": "comic",
       "path": "comic/第一版主.js",
