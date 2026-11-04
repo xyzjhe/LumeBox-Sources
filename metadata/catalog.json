@@ -5,7 +5,7 @@
     "comic": 60,
     "photo": 5,
     "movie": 34,
-    "video": 198,
+    "video": 197,
     "audiobook": 22,
     "novel": 0
   },
@@ -3402,18 +3402,6 @@
       "appSection": "video",
       "path": "video/PY-[成人]蝙蝠视频🔞-e1a6c17c.py",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-[成人]蝙蝠视频🔞-e1a6c17c.py",
-      "aliases": [],
-      "rating": "18+",
-      "iconDeclared": false
-    },
-    {
-      "id": "pypack_6801804eecf1b0ce",
-      "name": "蝴蝶影院(广告去不干净)iOS版本",
-      "version": "1.0.0",
-      "kind": "video",
-      "appSection": "video",
-      "path": "video/PY-蝴蝶影院(广告去不干净)iOS版本-ecf1b0ce.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-蝴蝶影院(广告去不干净)iOS版本-ecf1b0ce.py",
       "aliases": [],
       "rating": "18+",
       "iconDeclared": false
