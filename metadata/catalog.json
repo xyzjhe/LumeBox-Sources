@@ -2,7 +2,7 @@
   "format": "lume.source-catalog",
   "version": 1,
   "counts": {
-    "comic": 56,
+    "comic": 57,
     "photo": 5,
     "movie": 34,
     "video": 199,
@@ -70,6 +70,18 @@
       "aliases": [],
       "rating": "18+",
       "iconDeclared": false
+    },
+    {
+      "id": "shuba_novel",
+      "name": "69书吧",
+      "version": "1.0.0",
+      "kind": "comic",
+      "appSection": "comic",
+      "path": "comic/69书吧.js",
+      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/69书吧.js",
+      "aliases": [],
+      "rating": "18+",
+      "iconDeclared": true
     },
     {
       "id": "manhua90_comic",

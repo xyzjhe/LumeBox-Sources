@@ -905,6 +905,10 @@
   "jmcomic_novel": {
    "rating": "18+",
    "evidence": "禁漫天堂 JM文庫 → 禁漫小說：成人小说，正文在 #ncc1/#ncc2 两个 .novel-content 里；文字小说形态，归漫画板块。"
+  },
+  "shuba_novel": {
+   "rating": "18+",
+   "evidence": "69书吧（69shuba.com）：jieqi 小说站，含大量成人小说；全站 Cloudflare managed challenge + GBK 编码，源里按约定抛 NEED_WEBVIEW_VERIFY。"
   }
  },
  "evidence": {
