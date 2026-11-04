@@ -4,8 +4,8 @@
   "counts": {
     "comic": 52,
     "photo": 5,
-    "movie": 245,
-    "video": 195,
+    "movie": 243,
+    "video": 194,
     "audiobook": 22,
     "novel": 0
   },
@@ -708,18 +708,6 @@
       "iconDeclared": false
     },
     {
-      "id": "pypack_db4e8180075a888b",
-      "name": "28短剧",
-      "version": "1.0.0",
-      "kind": "movie",
-      "appSection": "video",
-      "path": "movie/PY-[短]28短剧-075a888b.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/movie/PY-[短]28短剧-075a888b.py",
-      "aliases": [],
-      "rating": "unknown",
-      "iconDeclared": false
-    },
-    {
       "id": "zy360_video",
       "name": "360资源",
       "version": "1.0.0",
@@ -919,18 +907,6 @@
       "appSection": "video",
       "path": "movie/PY-[影]CNFLIX-d1c1c44f.py",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/movie/PY-[影]CNFLIX-d1c1c44f.py",
-      "aliases": [],
-      "rating": "unknown",
-      "iconDeclared": false
-    },
-    {
-      "id": "pypack_72d36727864dc0b1",
-      "name": "E佬苹果",
-      "version": "1.0.0",
-      "kind": "movie",
-      "appSection": "video",
-      "path": "movie/PY-[影]E佬苹果-864dc0b1.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/movie/PY-[影]E佬苹果-864dc0b1.py",
       "aliases": [],
       "rating": "unknown",
       "iconDeclared": false
@@ -5623,18 +5599,6 @@
       "appSection": "video",
       "path": "video/PY-[瑟]神秘电影-10d4e6c2.py",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-[瑟]神秘电影-10d4e6c2.py",
-      "aliases": [],
-      "rating": "18+",
-      "iconDeclared": false
-    },
-    {
-      "id": "pypack_13192b0f19124210",
-      "name": "章鱼",
-      "version": "1.0.0",
-      "kind": "video",
-      "appSection": "video",
-      "path": "video/PY-章鱼-19124210.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-章鱼-19124210.py",
       "aliases": [],
       "rating": "18+",
       "iconDeclared": false
