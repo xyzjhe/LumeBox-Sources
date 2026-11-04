@@ -2,7 +2,7 @@
   "format": "lume.source-catalog",
   "version": 1,
   "counts": {
-    "comic": 58,
+    "comic": 59,
     "photo": 5,
     "movie": 34,
     "video": 199,
@@ -679,6 +679,23 @@
       "appSection": "comic",
       "path": "comic/西瓜书屋.js",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/西瓜书屋.js",
+      "aliases": [],
+      "rating": "18+",
+      "iconDeclared": true
+    },
+    {
+      "id": "cool18_comic",
+      "name": "酷18",
+      "version": "1.0.0",
+      "kind": "comic",
+      "appSection": "comic",
+      "path": "comic/酷18.js",
+      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/酷18.js",
+      "contentTypes": [
+        "novel",
+        "photo",
+        "video"
+      ],
       "aliases": [],
       "rating": "18+",
       "iconDeclared": true

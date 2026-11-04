@@ -913,6 +913,10 @@
   "ciyuanji_novel": {
    "rating": "18+",
    "evidence": "次元姬（ciyuanji.com）：成人轻小说站（同人/R18 标签占比高）；正文 DES-ECB 密文，源内用 rk 前 8 字节解密。"
+  },
+  "cool18_comic": {
+   "rating": "18+",
+   "evidence": "酷18（cool18.com）：综合成人论坛，九个板块全部成人内容（小说/图片/视频），进入前有年龄门。"
   }
  },
  "evidence": {
