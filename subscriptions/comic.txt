@@ -46,6 +46,7 @@ https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/禁漫�
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/禁漫天堂.js
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/禁漫天堂JM文庫.js
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/禁漫岛.js
+https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/第一版主.js
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/紳士漫畫.js
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/绅游巴士漫画.js
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/肉漫天堂.js

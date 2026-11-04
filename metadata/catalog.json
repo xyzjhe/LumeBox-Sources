@@ -2,7 +2,7 @@
   "format": "lume.source-catalog",
   "version": 1,
   "counts": {
-    "comic": 59,
+    "comic": 60,
     "photo": 5,
     "movie": 34,
     "video": 199,
@@ -574,6 +574,18 @@
       "aliases": [],
       "rating": "18+",
       "iconDeclared": false
+    },
+    {
+      "id": "diyibanzhu_novel",
+      "name": "第一版主",
+      "version": "1.0.0",
+      "kind": "comic",
+      "appSection": "comic",
+      "path": "comic/第一版主.js",
+      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/第一版主.js",
+      "aliases": [],
+      "rating": "18+",
+      "iconDeclared": true
     },
     {
       "id": "wnacg_comic",
