@@ -6,7 +6,7 @@
     "photo": 5,
     "movie": 34,
     "video": 187,
-    "audiobook": 21,
+    "audiobook": 20,
     "novel": 0
   },
   "verification": "Metadata inventory only; not a live cover or playback availability report.",
@@ -3597,18 +3597,6 @@
       "aliases": [],
       "rating": "18+",
       "iconDeclared": true
-    },
-    {
-      "id": "pypack_c71045345421e4cd",
-      "name": "影子音乐",
-      "version": "1.0.0",
-      "kind": "audiobook",
-      "appSection": "comic",
-      "path": "audiobook/PY-[音]影子音乐-5421e4cd.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/audiobook/PY-[音]影子音乐-5421e4cd.py",
-      "aliases": [],
-      "rating": "unknown",
-      "iconDeclared": false
     },
     {
       "id": "pypack_d50ffac90ff60a17",

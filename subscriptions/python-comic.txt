@@ -8,7 +8,6 @@ https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/audiobook/PY-[
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/audiobook/PY-听友小说-f297fb8f.py
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/audiobook/PY-[书]喜马拉雅-e8d6b9de.py
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/audiobook/PY-多聚听书-474147de.py
-https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/audiobook/PY-[音]影子音乐-5421e4cd.py
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/audiobook/PY-[书]悦听-0ff60a17.py
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/audiobook/PY-[书]易听书网-93f015bc.py
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/audiobook/PY-[瑟]星梦Asmr-33be3427.py
