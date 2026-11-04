@@ -6,7 +6,7 @@
     "photo": 5,
     "movie": 34,
     "video": 187,
-    "audiobook": 19,
+    "audiobook": 18,
     "novel": 0
   },
   "verification": "Metadata inventory only; not a live cover or playback availability report.",
@@ -3513,18 +3513,6 @@
       "aliases": [],
       "rating": "unknown",
       "iconDeclared": false
-    },
-    {
-      "id": "ting8_audiobook",
-      "name": "听书吧",
-      "version": "1.0.3",
-      "kind": "audiobook",
-      "appSection": "comic",
-      "path": "audiobook/听书吧.js",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/audiobook/听书吧.js",
-      "aliases": [],
-      "rating": "unknown",
-      "iconDeclared": true
     },
     {
       "id": "pypack_7982247df297fb8f",
