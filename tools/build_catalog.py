@@ -31,6 +31,19 @@ def url(path):
     return RAW + path.replace(' ', '%20')
 
 
+def content_types(meta):
+    """Validate optional declared media types without guessing from script text."""
+    if 'contentTypes' not in meta:
+        return []
+    types = meta['contentTypes']
+    allowed = {'video', 'comic', 'novel', 'photo', 'audio'}
+    if (not isinstance(types, list) or len(types) < 2 or
+            any(not isinstance(item, str) or item not in allowed for item in types) or
+            len(types) != len(set(types))):
+        raise ValueError(f"综合源 contentTypes 必须声明至少两种不重复的有效类型: {meta.get('id')}")
+    return types
+
+
 def read_sources():
     found = {}
     for folder in KINDS:
@@ -71,6 +84,7 @@ def read_sources():
             'id': sid, 'name': meta['name'], 'version': meta['version'],
             'kind': kind, 'appSection': 'comic' if kind in ('comic', 'photo', 'novel', 'audiobook') else 'video',
             'path': path, 'url': url(path),
+            **({'contentTypes': content_types(meta)} if 'contentTypes' in meta else {}),
             'aliases': [p for p, _ in candidates if p != path],
             'rating': ratings.get(sid, {}).get('rating', '18+' if meta.get('contentCategory') == 'adult' else 'unknown'),
             'iconDeclared': bool(meta.get('icon') or meta.get('iconUrl')),
@@ -109,9 +123,10 @@ def build():
     # This is an additional view over existing video subscriptions, not a
     # relocation: existing subscribers keep their source ownership and URLs.
     mixed_ids = json.loads((ROOT / 'metadata/mixed-sources.json').read_text(encoding='utf-8'))
-    missing = set(mixed_ids) - {row['id'] for row in rows}
-    if missing:
-        raise ValueError(f'综合源不在目录中: {sorted(missing)}')
+    registered = set(mixed_ids)
+    declared = {row['id'] for row in rows if row.get('contentTypes')}
+    if registered != declared:
+        raise ValueError(f'综合源声明与登记不一致；缺少声明: {sorted(registered - declared)}；缺少登记: {sorted(declared - registered)}')
     mixed = [row for row in rows if row['id'] in mixed_ids]
     raw = manifest(mixed, '综合源（多种内容）')
     out['subscriptions/mixed.txt'] = raw

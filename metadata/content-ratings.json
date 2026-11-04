@@ -893,6 +893,10 @@
   "liz_video": {
    "rating": "18+",
    "evidence": "荔枝短剧（liz01.com）：AI 成人短剧站，全部为色情短剧；单集页内容为签名 HLS，封面 AES-128-CBC 加密。"
+  },
+  "lcm_video": {
+   "rating": "18+",
+   "evidence": "乐成漫画（lcmhx.cc）：成人漫画 + AI 成人短剧站；本源只做已验证的 AI 成人短剧频道（/mctype/5/），HLS 经站点 media.php 代理播放。"
   }
  },
  "evidence": {

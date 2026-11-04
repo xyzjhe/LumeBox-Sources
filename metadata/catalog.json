@@ -5,7 +5,7 @@
     "comic": 55,
     "photo": 5,
     "movie": 34,
-    "video": 197,
+    "video": 198,
     "audiobook": 22,
     "novel": 0
   },
@@ -2340,6 +2340,18 @@
       "iconDeclared": false
     },
     {
+      "id": "lcm_video",
+      "name": "乐成漫画 · 短剧",
+      "version": "1.0.0",
+      "kind": "video",
+      "appSection": "video",
+      "path": "video/乐成漫画短剧.js",
+      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/乐成漫画短剧.js",
+      "aliases": [],
+      "rating": "18+",
+      "iconDeclared": true
+    },
+    {
       "id": "jiuse91_video",
       "name": "九色91Porny",
       "version": "1.0.0",
@@ -2522,11 +2534,18 @@
     {
       "id": "yeshezy_video",
       "name": "夜社资源",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "kind": "video",
       "appSection": "video",
       "path": "video/夜社资源.js",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/夜社资源.js",
+      "contentTypes": [
+        "video",
+        "audio",
+        "photo",
+        "comic",
+        "novel"
+      ],
       "aliases": [],
       "rating": "18+",
       "iconDeclared": true
@@ -2822,11 +2841,17 @@
     {
       "id": "uaa_video",
       "name": "有爱爱 UAA",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "kind": "video",
       "appSection": "video",
       "path": "video/有爱爱.js",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/有爱爱.js",
+      "contentTypes": [
+        "video",
+        "audio",
+        "comic",
+        "novel"
+      ],
       "aliases": [],
       "rating": "18+",
       "iconDeclared": true
@@ -3218,11 +3243,16 @@
     {
       "id": "mycall_video",
       "name": "草榴小说视频",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "kind": "video",
       "appSection": "video",
       "path": "video/草榴小说视频.js",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/草榴小说视频.js",
+      "contentTypes": [
+        "video",
+        "photo",
+        "novel"
+      ],
       "aliases": [],
       "rating": "18+",
       "iconDeclared": true
