@@ -5,7 +5,7 @@
     "comic": 60,
     "photo": 5,
     "movie": 34,
-    "video": 190,
+    "video": 189,
     "audiobook": 22,
     "novel": 0
   },
@@ -1236,18 +1236,6 @@
       "appSection": "video",
       "path": "video/18AV.js",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/18AV.js",
-      "aliases": [],
-      "rating": "18+",
-      "iconDeclared": false
-    },
-    {
-      "id": "pypack_5ae710262db60781",
-      "name": "18jspa",
-      "version": "1.0.0",
-      "kind": "video",
-      "appSection": "video",
-      "path": "video/PY-18jspa-2db60781.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-18jspa-2db60781.py",
       "aliases": [],
       "rating": "18+",
       "iconDeclared": false

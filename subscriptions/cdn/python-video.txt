@@ -1,6 +1,5 @@
 # PY 合集 · video
 # 自动生成；修改脚本后运行 python tools/build_catalog.py
-https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/video/PY-18jspa-2db60781.py
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/video/PY-[瑟]618-cf84fc00.py
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/video/PY-[瑟]74P福利图-1aa06257.py
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/video/PY-babestation-fd79eaa4.py
