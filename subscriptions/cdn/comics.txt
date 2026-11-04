@@ -51,7 +51,6 @@ https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/comic/紳士漫畫.j
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/comic/绅游巴士漫画.js
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/comic/肉漫天堂.js
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/comic/肉漫屋.js
-https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/comic/腐宅BoyLove.js
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/comic/色友漫画.js
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/comic/色漫天堂.js
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/comic/蚂蚁搬运.js

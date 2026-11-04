@@ -2,7 +2,7 @@
   "format": "lume.source-catalog",
   "version": 1,
   "counts": {
-    "comic": 59,
+    "comic": 58,
     "photo": 5,
     "movie": 34,
     "video": 187,
@@ -619,18 +619,6 @@
       "appSection": "comic",
       "path": "comic/肉漫屋.js",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/肉漫屋.js",
-      "aliases": [],
-      "rating": "18+",
-      "iconDeclared": false
-    },
-    {
-      "id": "fuzhaiboylove_comic",
-      "name": "腐宅BoyLove",
-      "version": "1.0.0",
-      "kind": "comic",
-      "appSection": "comic",
-      "path": "comic/腐宅BoyLove.js",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/腐宅BoyLove.js",
       "aliases": [],
       "rating": "18+",
       "iconDeclared": false
