@@ -6,7 +6,7 @@
     "photo": 5,
     "movie": 34,
     "video": 187,
-    "audiobook": 17,
+    "audiobook": 16,
     "novel": 0
   },
   "verification": "Metadata inventory only; not a live cover or playback availability report.",
@@ -3573,18 +3573,6 @@
       "aliases": [],
       "rating": "18+",
       "iconDeclared": true
-    },
-    {
-      "id": "pypack_d50ffac90ff60a17",
-      "name": "悦听",
-      "version": "1.0.0",
-      "kind": "audiobook",
-      "appSection": "comic",
-      "path": "audiobook/PY-[书]悦听-0ff60a17.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/audiobook/PY-[书]悦听-0ff60a17.py",
-      "aliases": [],
-      "rating": "unknown",
-      "iconDeclared": false
     },
     {
       "id": "yueting_video",
