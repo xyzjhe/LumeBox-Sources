@@ -19,7 +19,7 @@
 
 | 分类 | 独立源数 | 原站 | 国内 CDN |
 | --- | ---: | --- | --- |
-| 漫画 | 52 | [订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/comic.txt) | [订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/comic.txt) |
+| 漫画 | 53 | [订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/comic.txt) | [订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/comic.txt) |
 | 美图 | 5 | [订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/photo.txt) | [订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/photo.txt) |
 | 影视 | 34 | [订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/movie.txt) | [订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/movie.txt) |
 | 视频与直播 | 128 | [订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/video.txt) | [订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/video.txt) |
@@ -27,7 +27,7 @@
 | 文字小说 | 0 | [订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/novel.txt) | [订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/novel.txt) |
 | PY 合集 | 83 | [订阅](https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/subscriptions/python.json) | [订阅](https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/subscriptions/cdn/python.json) |
 
-共 **309 个独立源**，同 ID 不重复收录。漫画、美图、文字小说、有声导入 APP 漫画板块；影视、视频导入视频板块。
+共 **310 个独立源**，同 ID 不重复收录。漫画、美图、文字小说、有声导入 APP 漫画板块；影视、视频导入视频板块。
 
 ## 2026-11-03 懂片帝（video/懂片帝.js）
 

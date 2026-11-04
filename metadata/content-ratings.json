@@ -877,6 +877,10 @@
   "xiguashuwu_comic": {
    "rating": "18+",
    "evidence": "西瓜书屋（www.xiguashuwu2.com，原 simishuwu）：成人网络小说站，全站色情小说（高辣/情欲/耽美等分类），VIP 角标书正文同样全量下发；交付形态为文字小说（mediaType=novel），归漫画板块。"
+  },
+  "8csk_comic": {
+   "rating": "18+",
+   "evidence": "八叉书库（8csk.org，发布页 8csk.xyz 给出 18 个同内容域名）：全站成人网络小说，正文由 POST /conapi.php 的一次性令牌下发纯文本；交付形态为文字小说（mediaType=novel），归漫画板块。"
   }
  },
  "evidence": {

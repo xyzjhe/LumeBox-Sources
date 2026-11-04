@@ -2,7 +2,7 @@
   "format": "lume.source-catalog",
   "version": 1,
   "counts": {
-    "comic": 53,
+    "comic": 54,
     "photo": 5,
     "movie": 34,
     "video": 195,
@@ -259,6 +259,18 @@
       "appSection": "comic",
       "path": "comic/丽图漫画.js",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/丽图漫画.js",
+      "aliases": [],
+      "rating": "18+",
+      "iconDeclared": true
+    },
+    {
+      "id": "8csk_comic",
+      "name": "八叉书库",
+      "version": "1.0.0",
+      "kind": "comic",
+      "appSection": "comic",
+      "path": "comic/八叉书库.js",
+      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/八叉书库.js",
       "aliases": [],
       "rating": "18+",
       "iconDeclared": true
