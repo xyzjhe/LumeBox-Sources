@@ -5,7 +5,7 @@
     "comic": 60,
     "photo": 5,
     "movie": 34,
-    "video": 193,
+    "video": 192,
     "audiobook": 22,
     "novel": 0
   },
@@ -1932,18 +1932,6 @@
       "appSection": "video",
       "path": "video/PY-porna91-384a0eba.py",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-porna91-384a0eba.py",
-      "aliases": [],
-      "rating": "18+",
-      "iconDeclared": false
-    },
-    {
-      "id": "pypack_67127010003a8ec7",
-      "name": "pornav",
-      "version": "1.0.0",
-      "kind": "video",
-      "appSection": "video",
-      "path": "video/PY-pornav-003a8ec7.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-pornav-003a8ec7.py",
       "aliases": [],
       "rating": "18+",
       "iconDeclared": false
