@@ -5,7 +5,7 @@
     "comic": 58,
     "photo": 5,
     "movie": 34,
-    "video": 186,
+    "video": 185,
     "audiobook": 15,
     "novel": 0
   },
@@ -2587,18 +2587,6 @@
       "appSection": "video",
       "path": "video/PY-少女破处-0b2b3ff6.py",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-少女破处-0b2b3ff6.py",
-      "aliases": [],
-      "rating": "18+",
-      "iconDeclared": false
-    },
-    {
-      "id": "pypack_0cab865ff159c1fd",
-      "name": "居屋短剧",
-      "version": "1.0.0",
-      "kind": "video",
-      "appSection": "video",
-      "path": "video/PY-[瑟]居屋短剧-f159c1fd.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-[瑟]居屋短剧-f159c1fd.py",
       "aliases": [],
       "rating": "18+",
       "iconDeclared": false
