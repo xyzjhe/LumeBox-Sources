@@ -61,7 +61,6 @@ https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/video/ASMR吧.js
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/video/Avbebe.js
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/video/AV仓库.js
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/video/PY-babestation-fd79eaa4.py
-https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/video/PY-badnews-e820a17c.py
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/video/BetaTok.js
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/video/Butterfly2.js
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/video/PY-bzsp005-去广告-2beb0ab9.py
