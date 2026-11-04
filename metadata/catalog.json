@@ -5,7 +5,7 @@
     "comic": 60,
     "photo": 5,
     "movie": 34,
-    "video": 195,
+    "video": 194,
     "audiobook": 22,
     "novel": 0
   },
@@ -2388,18 +2388,6 @@
       "appSection": "video",
       "path": "video/99jj38.js",
       "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/99jj38.js",
-      "aliases": [],
-      "rating": "18+",
-      "iconDeclared": false
-    },
-    {
-      "id": "pypack_5e60e725a825e9e1",
-      "name": "久久网",
-      "version": "1.0.0",
-      "kind": "video",
-      "appSection": "video",
-      "path": "video/PY-久久网-a825e9e1.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/video/PY-久久网-a825e9e1.py",
       "aliases": [],
       "rating": "18+",
       "iconDeclared": false
