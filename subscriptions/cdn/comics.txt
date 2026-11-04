@@ -84,5 +84,4 @@ https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/audiobook/PY-[书]�
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/audiobook/PY-[瑟]星梦Asmr-33be3427.py
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/audiobook/PY-[音]爱听音乐-f1279fa9.py
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/audiobook/PY-[音]酷我-6e0baa12.py
-https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/audiobook/PY-[音]音乐聚合-2a943dca.py
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/audiobook/麒麟听书.js
