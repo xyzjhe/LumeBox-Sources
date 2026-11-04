@@ -23,7 +23,6 @@ https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/七七�
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/三四漫画.js
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/丽图漫画.js
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/八叉书库.js
-https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/PY-包子漫画-11aa84f1.py
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/十八漫画.js
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/十八韩漫.js
 https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/啵乐.js

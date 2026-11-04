@@ -2,7 +2,7 @@
   "format": "lume.source-catalog",
   "version": 1,
   "counts": {
-    "comic": 60,
+    "comic": 59,
     "photo": 5,
     "movie": 34,
     "video": 187,
@@ -286,18 +286,6 @@
       "aliases": [],
       "rating": "18+",
       "iconDeclared": true
-    },
-    {
-      "id": "pypack_3db0009711aa84f1",
-      "name": "包子漫画",
-      "version": "1.0.0",
-      "kind": "comic",
-      "appSection": "comic",
-      "path": "comic/PY-包子漫画-11aa84f1.py",
-      "url": "https://raw.githubusercontent.com/teng662858/LumeBox-Sources/main/comic/PY-包子漫画-11aa84f1.py",
-      "aliases": [],
-      "rating": "unknown",
-      "iconDeclared": false
     },
     {
       "id": "mh18_comic",

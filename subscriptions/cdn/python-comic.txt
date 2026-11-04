@@ -1,6 +1,5 @@
 # PY 合集 · comic
 # 自动生成；修改脚本后运行 python tools/build_catalog.py
-https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/comic/PY-包子漫画-11aa84f1.py
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/audiobook/PY-[书]275听书-91b6d4ad.py
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/audiobook/PY-[助眠]ASMR吧-c2a49e62.py
 https://cdn.jsdelivr.net/gh/teng662858/LumeBox-Sources@main/audiobook/PY-[音]DJ呦呦-fc3515a6.py
